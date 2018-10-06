@@ -8,6 +8,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		// 模拟冲突
+        System.out.println( "hello world");
 		SpringApplication.run(DemoApplication.class, args);
 	}
 }
